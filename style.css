@@ -120,6 +120,8 @@ nav ul li:hover {
 .projet {
   background-color: #e7fbff;
   padding-bottom: 10%;
+  overflow-y: scroll;
+  height: 400px;
 }
 
 .projet h1 {
@@ -227,6 +229,13 @@ nav ul li:hover {
   font-weight: bold;
   margin: 4%;
   padding-top: 1%;
+  font-family: "Raleway", sans-serif;
+}
+
+.projet-video h2 {
+  font-size: 1vw;
+  margin-left: 4%;
+  font-weight: bold;
   font-family: "Raleway", sans-serif;
 }
 
