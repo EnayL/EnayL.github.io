@@ -117,13 +117,6 @@ nav ul li:hover {
   font-size: 2vw;
 }
 
-.projet {
-  background-color: #e7fbff;
-  padding-bottom: 10%;
-  overflow-y: scroll;
-  height: 400px;
-}
-
 .projet h1 {
   font-size: 4vw;
   font-weight: bold;
@@ -224,6 +217,14 @@ nav ul li:hover {
   flex-shrink: 0;
 }
 
+.item1 {
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
 .projet-video h1 {
   font-size: 3vw;
   font-weight: bold;
@@ -247,7 +248,20 @@ nav ul li:hover {
   height: auto;
 }
 
+.item1 img {
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+  border: solid 1px;
+}
+
 .item img:hover {
+  filter: brightness(70%);
+}
+
+.item1 img:hover {
   filter: brightness(70%);
 }
 
