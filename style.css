@@ -240,6 +240,21 @@ nav ul li:hover {
   font-family: "Raleway", sans-serif;
 }
 
+.projet-video2 h1 {
+  font-size: 3vw;
+  font-weight: bold;
+  margin: 4%;
+  padding-top: 1%;
+  font-family: "Raleway", sans-serif;
+}
+
+.projet-video2 h2 {
+  font-size: 1vw;
+  margin-left: 4%;
+  font-weight: bold;
+  font-family: "Raleway", sans-serif;
+}
+
 .item img {
   background-size: cover;
   background-position: center;
