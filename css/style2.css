@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri&family=Radio+Canada:wght@300&family=Raleway:wght@100&display=swap");
+body {
+  font-family: "Raleway", sans-serif;
+  padding: 0% 2%;
+  margin: 0%;
+  background-color: #f4f9f9;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  background-color: #e7fbff;
+}
+
+nav .profile {
+  display: flex;
+  align-items: center;
+  padding-bottom: 1%;
+  padding-top: 1%;
+}
+
+nav .profile img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-left: 10px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+
+nav .profile h1 {
+  font-size: 15px;
+  margin-left: 10px;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+nav ul li {
+  margin-left: 20px;
+  cursor: pointer;
+  border-bottom: 1px solid #e4fbff;
+  margin-right: 10px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+nav ul li:hover {
+  border-bottom-color: #c2d6d6;
+}
+
+.projet h1 {
+  font-size: 4vw;
+  font-weight: bold;
+  margin: 4%;
+  padding-top: 5%;
+  text-align: center;
+  font-family: "Radio Canada", sans-serif;
+}
+
+.projet-info h1 {
+  font-size: 3vw;
+  font-weight: bold;
+  margin: 4%;
+  padding-top: 1%;
+  font-family: "Raleway", sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.title-project {
+  width: 100%;
+  margin-top: 3%;
+  margin-left: 2%;
+}
+
+.textin {
+  width: 70%;
+  margin-left: 3%;
+  margin-top: 1%;
+  text-align: center;
+  justify-content: center;
+}
+
+.textin p {
+  font-size: 2vw;
+  margin: 1%;
+  margin-top: 5%;
+  text-align: center;
+}
+
+.title-project h1 {
+  font-size: 2vw;
+  font-weight: bold;
+  margin: 1%;
+}
+
+.workproject {
+  margin-top: 5%;
+  background-color: #e4fbff;
+  width: 100%;
+  padding-bottom: 2%;
+}
+
+.workimg {
+  margin-left: 0;
+  margin-right: 0;
+  text-align: center;
+}
+
+.workimg img {
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 40%;
+  height: auto;
+  border: solid 1px;
+  margin-left: 0;
+  margin-right: 0;
+}
